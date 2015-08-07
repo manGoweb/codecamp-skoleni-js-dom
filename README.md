@@ -62,7 +62,7 @@ const blockScope = 123;
 - null
 - undefined
 - number `123`, `10.05`
-- string `'řetězec'`, `"druhý řetězec"`
+- string `'řetězec'`, `"druhý řetězec"`, \`multi line string\`
 - symbol `var id = Symbol()`
 
 Proměnná je přímo daná hodnota...  
@@ -73,6 +73,12 @@ Proměnná je přímo daná hodnota...
 - function `function name(arguments) { body }`
 
 Hodnota proměnné je odkaz do paměti na daný objekt...
+
+##### Rezervovaná klíčová slova
+
+- nemůžeme je použít jako název proměnné
+
+break, case, class, catch, const, continue, debugger, default, delete, do, else, export, extends, finally, for, function, if, import, in, instanceof, let, new, return, super, switch, this, throw, try, typeof, var, void, while, with, yield
 
 #### Programové konstrukce
 
