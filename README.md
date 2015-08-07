@@ -1,19 +1,19 @@
-# ákolen’ JS+DOM
+# Å kolenÃ­ JS+DOM
 
 ## ~~JavaScript~~ ECMAScript 6
 
-### Z‡kladn’ syntax
-- podob‡ se Javž, C (...)
+### ZÃ¡kladnÃ­ syntax
+- podobÃ¡ se JavÄ›, C (...)
 - Unicode
 - case sensitive
-- instrukce programu se nazùvaj’ vùrazy (expression)
+- instrukce programu se nazÃ½vajÃ­ vÃ½razy (expression)
 
-Vùraz:
+VÃ½raz:
 ```js
 expression;
 ```
 
-Koment‡Þe:
+KomentÃ¡Å™e:
 ```js
 // comment
 /* 
@@ -31,21 +31,21 @@ if(condition) {
 
 Funkce:
 ```js
-function example(argument, argument2)Ê{
+function example(argument, argument2)Â {
 	// blok funkce
 }
 ```
 
-### PromžnnŽ
+### PromÄ›nnÃ©
 
 #### Deklarace:
-- kl’‹ov‡ slova: var, let, const
+- klÃ­ÄovÃ¡ slova: var, let, const
 
 ```js
 var variable = value;
 ```
 
-#### Obor pósobnosti - Variable scope:
+#### Obor pÅ¯sobnosti - Variable scope:
 ```js
 globalScope = smth;
 var functionScope = smth;
@@ -53,38 +53,38 @@ let blockScope = smth;
 const blockScope = 123;
 ```
 
-### DatovŽ typy
-- dynamickù jazyk = promžnnŽ nemaj’ pevnž stanovenù datovù typ
+### DatovÃ© typy
+- dynamickÃ½ jazyk = promÄ›nnÃ© nemajÃ­ pevnÄ› stanovenÃ½ datovÃ½ typ
 
-#### Primitivn’:
+#### PrimitivnÃ­:
 
 - boolean `true`, `false`
 - null
 - undefined
 - number `123`, `10.05`
-- string `'Þetžzec'`, `"druhù Þetžzec"`
+- string `'Å™etÄ›zec'`, `"druhÃ½ Å™etÄ›zec"`
 - symbol `var id = Symbol()`
 
-Promžnn‡ je pÞ’mo dan‡ hodnota...  
+PromÄ›nnÃ¡ je pÅ™Ã­mo danÃ¡ hodnota...  
 
-#### Referen‹n’:
+#### ReferenÄnÃ­:
 
 - Object `obj = { property: value, prop2: val2 }`
 - function `function name(arguments) { body }`
 
-Hodnota promžnnŽ je odkaz do pamžti na danù objekt...
+Hodnota promÄ›nnÃ© je odkaz do pamÄ›ti na danÃ½ objekt...
 
-#### ProgramovŽ konstrukce
+#### ProgramovÃ© konstrukce
 
 ##### pole
 ```js
 var array = [1, 2, 3, 4, 5];
 var arrayOfArrays = [
 	[ 1, 2, 3, 4, 5 ],
-	[ 'cos', 'to', 'Honzo', 'cos', 'to', 'snžd' ],
+	[ 'cos', 'to', 'Honzo', 'cos', 'to', 'snÄ›d' ],
 	[ ]
 ];
-// PÞ’stup k hodnotž 
+// PÅ™Ã­stup k hodnotÄ› 
 array[index];
 arrayOfArrays[index][index2];
 ```
@@ -92,12 +92,12 @@ arrayOfArrays[index][index2];
 ##### objekty
 ```js
 var object = { jedna: 1, dve: 2, tri: 3 };
-// PÞ’stup k hodnotž
+// PÅ™Ã­stup k hodnotÄ›
 object.jedna;
 object['dve'];
 ```
 
-##### podm’nky
+##### podmÃ­nky
 ```js
 if (condition) { 
 	// ...
@@ -106,25 +106,25 @@ if (condition) {
 if (...) { ... }
 else { ... }
 
-if (...)Ê{ ... }
+if (...)Â { ... }
 else if (...) { ... }
 ```
-Hodnoty vyhodnocenŽ jako `false`: `undefined, null, 0, NaN, ""`
+Hodnoty vyhodnocenÃ© jako `false`: `undefined, null, 0, NaN, ""`
 
-Porovn‡vac’ oper‡tory:
+PorovnÃ¡vacÃ­ operÃ¡tory:
 - ekvivalence `==`
 - neekvivalence `!=`
-- striktn’ rovnost `===`
-- striktn’ nerovnost `!==`
-- vžtä’ neì, menä’ neì `>`, `<`
-- vžtä’ anebo rovno, menä’ anebo rovno `>=`, `<=`
+- striktnÃ­ rovnost `===`
+- striktnÃ­ nerovnost `!==`
+- vÄ›tÅ¡Ã­ neÅ¾, menÅ¡Ã­ neÅ¾ `>`, `<`
+- vÄ›tÅ¡Ã­ anebo rovno, menÅ¡Ã­ anebo rovno `>=`, `<=`
 
-LogickŽ oper‡tory:
+LogickÃ© operÃ¡tory:
 - NOT (negace) `!`
 - OR (nebo) `one || two`
-- AND (a z‡roveË) `one && two`
+- AND (a zÃ¡roveÅˆ) `one && two`
 
-##### iterace a smy‹ky
+##### iterace a smyÄky
 
 ```js
 // Iterace
