@@ -80,9 +80,9 @@ Hodnota proměnné je odkaz do paměti na daný objekt...
 
 break, case, class, catch, const, continue, debugger, default, delete, do, else, export, extends, finally, for, function, if, import, in, instanceof, let, new, return, super, switch, this, throw, try, typeof, var, void, while, with, yield
 
-#### Programové konstrukce
+### Programové konstrukce
 
-##### pole
+#### pole
 ```js
 var array = [1, 2, 3, 4, 5];
 var arrayOfArrays = [
@@ -95,7 +95,7 @@ array[index];
 arrayOfArrays[index][index2];
 ```
 
-##### objekty
+#### objekty
 ```js
 var object = { jedna: 1, dve: 2, tri: 3 };
 // Přístup k hodnotě
@@ -103,7 +103,7 @@ object.jedna;
 object['dve'];
 ```
 
-##### podmínky
+#### podmínky
 ```js
 if (condition) { 
 	// ...
@@ -130,7 +130,7 @@ Logické operátory:
 - OR (nebo) `one || two`
 - AND (a zároveň) `one && two`
 
-##### iterace a smyčky
+#### iterace a smyčky
 
 ```js
 // Iterace
@@ -150,7 +150,7 @@ while (condition)
   statement
 ```
 
-##### funkce
+#### funkce
 
 ```js
 function add(first, second) {
@@ -164,3 +164,15 @@ var sum = (first, second) => first + second;
 
 var result2 = sum(1, 2);
 ```
+
+## DOM
+
+- document object model ... co to asi bude?
+- sada globálních objektů, které jsou dostupné v prohlížeči
+- možnost jak ovlivnit obsah, reagovat na uživatelský vstup, komunikovat se serverem, ukládat data apod.
+
+
+```js
+console.log(document);
+```
+
