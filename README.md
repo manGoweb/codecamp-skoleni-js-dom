@@ -175,6 +175,13 @@ var mojejablicko = new Apple('medium', 'golden', 'green');
 ```
 
 [MDN: Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+
+
+### Ladění
+
+DevTools, https://developer.chrome.com/devtools/docs/console-api
+
+
 ## DOM
 
 - document object model ... co to asi bude?
