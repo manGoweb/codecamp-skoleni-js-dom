@@ -163,8 +163,18 @@ var result = add(1, 1);
 var sum = (first, second) => first + second;
 
 var result2 = sum(1, 2);
+
+// Constructor function
+function Apple(size, kind, color) {
+    this.size = size;
+    this.kind = kind;
+    this.color = color;
+}
+// Create an instance of the object
+var mojejablicko = new Apple('medium', 'golden', 'green');
 ```
 
+[MDN: Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 ## DOM
 
 - document object model ... co to asi bude?
