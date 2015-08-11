@@ -173,6 +173,7 @@ var mojejablicko = new Apple('medium', 'golden', 'green');
 ```
 
 [MDN: Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+[MDN: Details of the object model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)
 
 
 ## Ladění
