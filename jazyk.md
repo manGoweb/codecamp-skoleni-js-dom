@@ -1,6 +1,6 @@
 # Callback
 
-```
+```javascript
 function callback1(parametr1) {
     console.log(parametr1)
 }
@@ -13,65 +13,65 @@ element.addEventListener('click', callback1)
 element.addEventListener('click', callback2)
 
 // callback1({ /* event object */ })
-```
+```javascript
 
 # setTimeout
 
-```
+```javascript
 function callback() {
     console.log('ahoj')
 }
 
 setTimeout(callback, 2000) // 2 s
-```
+```javascript
 
 # typeof
 
-```
+```javascript
 console.log(typeof "ahoj")
 console.log(typeof "ahoj" === "string")
 console.log(typeof 42)
 console.log(typeof NaN)
-```
+```javascript
 
 # !!bool
 
-```
+```javascript
 var promenna = "truthy nebo falsy?"
 console.log(promenna)
 console.log(!promenna) // bool negace
 console.log(!!promenna) // bool negace negace
-```
+```javascript
 
 # truthy ? "ano" : "ne"
 
-```
+```javascript
 var promenna = true
 
 var druha_promenna = promenna ? "ano" : "ne"
 
 console.log(druha_promenna) // "ano"
-```
+```javascript
 
 # truthy && "ano"
 
-```
+```javascript
 var promenna = true && "ano"
 console.log(promenna) // "ano"
-```
+```javascript
 
 # falsy || "ano"
 
-```
+```javascript
 var promenna1 = true || "ne"
 var promenna2 = false || "ne"
 console.log(promenna1) // true
 console.log(promenna2) // "ne"
-```
+```javascript
 
 # Anonymní funkce
 
-```
+```javascript
 function() { console.log("toto se neprovede") }
 
 function zavolejArgument(funkce) {
@@ -92,11 +92,11 @@ zavolejArgument((param) => console.log("param: " + param))
 
 zavolejArgument(param => console.log("param: " + param))
 
-```
+```javascript
 
 # Anonymní objekty
 
-```
+```javascript
 function vypisJmeno(obj) {
     console.log(obj.name)
 }
@@ -109,11 +109,11 @@ var matej = {
 vypisJmeno(matej)
 
 vypisJmeno({ name: "Vilík", surname: "Kopecký" })
-```
+```javascript
 
 # Anonymní self invoking funkce
 
-```
+```javascript
 (function(){
     var promenna = 2
 })()
@@ -124,11 +124,11 @@ console.log(typeof promenna) // "undefined"
     console.log(x) }
 )(42)
 
-```
+```javascript
 
 # call, bind, apply
 
-```
+```javascript
 function zkouska(param1, param2) {
     console.log(this, param1, param2)
 }
@@ -142,18 +142,18 @@ zkouska.call(objekt, "b") // [objekt], "a", undefined
 zkouska.apply(objekt, [ "c", 123 ]) // [objekt], "c", 123
 
 zkouska.bind(objekt) // Function
-```
+```javascript
 
 # [].join.call(things, ',')
 
-```
+```javascript
 var obj = { 0: "a", 1: "b", length: 2 }
 [].join.call(obj, ',')
-```
+```javascript
 
 # Chaining
 
-```
+```javascript
 var obj = {}
 
 obj.chainA = function() {
@@ -173,12 +173,12 @@ obj
     .chainB() // "B"
     .chainB() // "B"
     .chainA() // "A"
-```
+```javascript
 
 
 # Promises
 
-```
+```javascript
 
 var promise = fetch("/soubor.json")
 
@@ -192,4 +192,4 @@ promise.fail(function(data){
     console.error(data)
 })
 
-```
+```javascript
