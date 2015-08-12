@@ -12,12 +12,7 @@
 - server-side / client-side
 - opensource knihovny musí řešit ještě kupu dalších věcí
 
-## Životní cyklus projektu
-
-zahájení projektu => vývoj / spolupráce / verzování => staging => deploy => produkce
-
 ## rozjetí projektu - boilerplate
-- testovní v prohlížečích - PhantomJS, Karma
 - version control - Git
 - continuous integration - postupné nasazování nového kódu po co nejmenších celcích
 - založit dokumentaci
@@ -61,12 +56,18 @@ zahájení projektu => vývoj / spolupráce / verzování => staging => deploy =
 
 Úprava HTML přímo na FTP. Těžko se synchronizoval stav na serveru se stavem na lokálním stroji. Ale programátoří jsou líní, tak si postupně ulehčují práci.
 
+## Životní cyklus projektu
+
+zahájení projektu => vývoj / spolupráce / verzování => staging => deploy => produkce
+
+
 ## zahájení projektu / boilerplate
 
 - technické zázemí
 - adresářová struktura
 - verzovací systém
 - "postahovat" nutnosti
+- testovní v prohlížečích - PhantomJS, Karma
 - yeoman
   - generátor projektů
   - výběr technologií
