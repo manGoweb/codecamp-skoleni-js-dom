@@ -26,11 +26,11 @@ Zbývají 2 úkoly | Filtrování: *All* | Active | Completed
 
 ## Cvičení - čtvrtek
 
-I. Dejte úkolovníčku pohledný kabátek (na rozehřátí ;)
-I. Rozšiřte správce úkolů o podporu offline režimu (včetně načtení stránky v offline)
-II. a následnou synchronizaci se serverem při dostupnosti připojení.
-III. Dále umožněte současné vkládání a editaci položek více uživateli na jednou, se zachováním pořadí vložení (tip: čas vytvoření).
-IV. BONUS: Umožněte vkládání a přehrávání zvukových poznámek.
+0. Dejte úkolovníčku pohledný kabátek (na rozehřátí ;)
+0. Rozšiřte správce úkolů o podporu offline režimu (včetně načtení stránky v offline)
+0. a následnou synchronizaci se serverem při dostupnosti připojení.
+0. Dále umožněte současné vkládání a editaci položek více uživateli na jednou, se zachováním pořadí vložení (tip: čas vytvoření).
+0. BONUS: Umožněte vkládání a přehrávání zvukových poznámek.
 
 Pokyny:
 - použijte [Application cache](https://developer.mozilla.org/en-US/docs/Web/HTML/Using_the_application_cache)
