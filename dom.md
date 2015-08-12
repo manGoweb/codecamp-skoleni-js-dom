@@ -56,6 +56,7 @@ console.dir(document);
 
 - Event Propagation - bublání odspoda nahoru
 - [DOM Events](http://devdocs.io/dom_events/)
+- event.preventDefault() - zrušení výchozí akce prohlížeče
 
 ## AJAX
 
