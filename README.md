@@ -11,3 +11,8 @@
 
 - Prohlížeč dokumentace: http://devdocs.io
 - Prototypovací prostředí: http://jsbin.com/beviha/1/edit?js,console
+
+## Kontakty
+
+* Matěj Šimek <email@matejsimek.cz> (www.matejsimek.cz)
+* Vilík Kopecký <vk@viliamkopecky.cz> (www.viliamkopecky.cz)
