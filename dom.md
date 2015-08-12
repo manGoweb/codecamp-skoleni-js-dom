@@ -56,7 +56,10 @@ Event Propagation
 
 ## AJAX
 
-# HTML5
+- [XMLHttpRequest](http://devdocs.io/dom/xmlhttprequest/using_xmlhttprequest)
+- [fetch](http://devdocs.io/dom/fetch_api/using_fetch)
+
+# HTML5 APIs
 - canvas
 - audio
 - webgl
@@ -67,3 +70,4 @@ Event Propagation
 - web storage
 - geo location
 - file api
+- [...](http://html5index.org)
