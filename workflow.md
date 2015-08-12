@@ -132,7 +132,7 @@ na produkci máme k dispozici HTML, CSS a JS. Ale vyvíjet můžeme v lepších 
 
 # dev stacky - boilerplate pro workflow
 
-V mangu jsme si udělali mango-cli.
+V mangu jsme si udělali [mango-cli](http://mangoweb.github.io/mango/).
 
 ```
 npm install -g mango-cli
