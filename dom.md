@@ -41,18 +41,21 @@ console.dir(document);
 
 ## Node
 
-getComputedStyle
+- getComputedStyle
 
 ## Selektory
 
-element.querySelector(selectors)
-element.querySelectorAll(selectors)
+- element.querySelector(selectors)
+- element.querySelectorAll(selectors)
 
 ## Manipulace 
 
+- [Make an interactive website](https://www.codecademy.com/skills/make-an-interactive-website)
+
 ## Events
 
-Event Propagation
+- Event Propagation - bublání odspoda nahoru
+- [DOM Events](http://devdocs.io/dom_events/)
 
 ## AJAX
 
