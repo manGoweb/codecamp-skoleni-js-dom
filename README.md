@@ -9,5 +9,5 @@
 
 ## Než začneme
 
-Prohlížeč dokumentace: http://devdocs.io
-Prototypovací prostředí: http://jsbin.com/beviha/1/edit?js,console
+- Prohlížeč dokumentace: http://devdocs.io
+- Prototypovací prostředí: http://jsbin.com/beviha/1/edit?js,console
