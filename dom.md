@@ -27,17 +27,17 @@ console.dir(document);
 
 ## Nejpoužívanější metody 
 
-document.getElementById(id)
-element.getElementsByTagName(name)
-document.createElement(name)
-parentNode.appendChild(node)
-element.innerHTML
-element.style.left
-element.setAttribute
-element.getAttribute
-element.addEventListener
-window.onload
-window.scrollTo
+- document.getElementById(id)
+- element.getElementsByTagName(name)
+- document.createElement(name)
+- parentNode.appendChild(node)
+- element.innerHTML
+- element.style.left
+- element.setAttribute
+- element.getAttribute
+- element.addEventListener
+- window.onload
+- window.scrollTo
 
 ## Node
 
