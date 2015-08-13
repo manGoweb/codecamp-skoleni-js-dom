@@ -147,7 +147,7 @@ zkouska.bind(objekt) // Function
 # [].join.call(things, ',')
 
 ```javascript
-var obj = { 0: "a", 1: "b", length: 2 }
+var obj = { 0: "a", 1: "b", length: 2 };
 [].join.call(obj, ',')
 ```
 
